@@ -87,5 +87,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaDomain\CinemaDomain.csproj">
+      <Project>{6a50bc1e-9426-5e0b-68e0-3366cdddc057}</Project>
+      <Name>CinemaDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CinemaRepository\CinemaRepository.csproj">
+      <Project>{de51d23e-7329-490a-a3f5-0d0e64e9401c}</Project>
+      <Name>CinemaRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
